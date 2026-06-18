@@ -19,6 +19,7 @@ Run them from the repository folder. `galileo_re_model.py` must be present for t
 others, since they import from it.
 
 | Script | What it does |
+
 | `galileo_re_model.py` | Monte Carlo engine: frequency, propagation, severity. Produces base-case loss numbers and basis-risk figures. |
 | `galileo_re_tail.py` | Tail stress tests: perturbs the copula, the severity, and event clustering to see how robust the tail is. |
 | `galileo_re_pricing.py` | Pricing: Wang transform for the risk load, robust pricing over an ambiguity set, and the resilience covenant. |
